@@ -1,0 +1,14 @@
+C:\Users\astro\Desktop\passGen\bin\Debug\net7.0\passGen.exe
+C:\Users\astro\Desktop\passGen\bin\Debug\net7.0\passGen.deps.json
+C:\Users\astro\Desktop\passGen\bin\Debug\net7.0\passGen.runtimeconfig.json
+C:\Users\astro\Desktop\passGen\bin\Debug\net7.0\passGen.dll
+C:\Users\astro\Desktop\passGen\bin\Debug\net7.0\passGen.pdb
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.AssemblyInfoInputs.cache
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.AssemblyInfo.cs
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.csproj.CoreCompileInputs.cache
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.dll
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\refint\passGen.dll
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.pdb
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\passGen.genruntimeconfig.cache
+C:\Users\astro\Desktop\passGen\obj\Debug\net7.0\ref\passGen.dll

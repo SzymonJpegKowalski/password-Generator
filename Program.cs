@@ -1,8 +1,4 @@
-﻿//metoda generująca hasło
-//3 argumenty ( dlugosc (int), duze litery (boolean), znaki specjalne (boolean) )
-//metoda generuje hasło na podstawie argumentów podanych przez użytkownika
-
-string passwordGen(int length,Boolean capitalLetters, Boolean specialCharacters)
+﻿string passwordGen(int length,Boolean capitalLetters, Boolean specialCharacters)
 {
     const string characters1 = "0123456789abcdefghijklmnopqrstuvwxyz";
     const string characters2 = "!#$%&()*+,-./0123456789:;<=>?@[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
@@ -43,21 +39,37 @@ string passwordGen(int length,Boolean capitalLetters, Boolean specialCharacters)
     return password;
 }
 
-Console.WriteLine("pass length: ");
-int length = Convert.ToInt32(Console.ReadLine());
+int length;
 Boolean capitalLetters;
-Boolean znakiSpecjalne;
+Boolean specialCharacters;
+string? includeCapitalLetters = "";
+string? includeSpecialCharacters = "";
 
-Console.Write("include capital letters? ");
-capitalLetters = Convert.ToBoolean(Console.ReadLine());
-Console.Write("include special characters? ");
-znakiSpecjalne = Convert.ToBoolean(Console.ReadLine());
+Console.Write("password length: ");
+length = Convert.ToInt32(Console.ReadLine());
+Console.Write("include capital letters? (yes/no) ");
+includeCapitalLetters = Console.ReadLine().ToLower();
+Console.Write("include special characters? (yes/no) ");
+includeSpecialCharacters = Console.ReadLine().ToLower();
 
-Console.WriteLine("password: " + passwordGen(length,capitalLetters,znakiSpecjalne));
+if(includeCapitalLetters == "yes")
+{
+    capitalLetters = true;
+}
+else
+{
+    capitalLetters = false;
+}
 
-/*
-    for(int i=0;i<length;i++)
-    {
-        password += characters[random.Next(characters.Length)];
-    }
-*/
+if(includeSpecialCharacters == "yes")
+{
+    specialCharacters = true;
+}
+else
+{
+    specialCharacters = false;
+}
+
+
+
+Console.WriteLine("password: " + passwordGen(length,capitalLetters,specialCharacters));
